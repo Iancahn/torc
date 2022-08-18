@@ -8,8 +8,8 @@ function Navbar() {
             <img src={Logo} alt="this is my logo" className="logo" />
             <nav>
                 <ul>
-                    <li><a href='#'>Home</a></li>
-                    <li><a href='#'>About Me</a></li>
+                    {/* <li><a href='#'>Home</a></li>
+                    <li><a href='#'>About Me</a></li> */}
                     <SocialIcon url="https://linkedin.com/in/iancahn" bgColor="#dbdbdb84" fgColor="#fff" className="social-icons" />
                     <SocialIcon url="https://www.instagram.com/apple/" bgColor="#dbdbdb84" fgColor="#fff" className="social-icons" />
                     <SocialIcon url="https://twitter.com/joerogan/" bgColor="#dbdbdb84" fgColor="#fff" className="social-icons" />

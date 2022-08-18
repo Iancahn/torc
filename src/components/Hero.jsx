@@ -5,8 +5,8 @@ import heroArrow from '../img/hero-arrow.png';
 function Header() {
     return (
         <div>
-            <section id="hero-section">
-                <div className="row">
+            <section>
+                <div className="row" id="hero-row">
                     <div className="column">
                         <h1>Hello Torc, <br />I am Ian.</h1>
                         <hr className="hr1" />

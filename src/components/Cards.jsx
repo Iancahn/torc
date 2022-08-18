@@ -1,13 +1,13 @@
 import React from 'react';
+//import components
 import Card from './Card';
 
 function Cards() {
     return (
         <div>
-            <Card />
-            <Card />
-            <Card />
-            <Card />
+            <section id="cards-section">
+                <Card />
+            </section>
         </div>
     )
 }
