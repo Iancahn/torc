@@ -1,11 +1,19 @@
 import React from 'react';
 
-function Navbar() {
+function Footer() {
     return (
         <div>
-            <h1>hello</h1>
+            <section>
+                <div className="row">
+                    <div className="column">1</div>
+                    <div className="column">2</div>
+                </div>
+            </section>
+            <section>
+                <p>Copyright © 2022. All Right Reserved</p>
+            </section>
         </div>
     )
 }
 
-export default Navbar;
+export default Footer;

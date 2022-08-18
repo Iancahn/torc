@@ -1,11 +1,15 @@
 import React from 'react';
+import Card from './Card';
 
-function Navbar() {
+function Cards() {
     return (
         <div>
-            <h1>hello</h1>
+            <Card />
+            <Card />
+            <Card />
+            <Card />
         </div>
     )
 }
 
-export default Navbar;
+export default Cards;

@@ -1,11 +1,17 @@
 import React from 'react';
 
-function Navbar() {
+
+function Header() {
     return (
         <div>
-            <h1>hello</h1>
+            <section>
+                <div className="row">
+                    <div className="column">1</div>
+                    <div className="column">2</div>
+                </div>
+            </section>
         </div>
     )
 }
 
-export default Navbar;
+export default Header;
