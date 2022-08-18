@@ -10,7 +10,7 @@ function Header() {
                     <div className="column">
                         <h1>Hello Torc, <br />I am Ian.</h1>
                         <hr className="hr1" />
-                        <p className="hero-text">“I love to share knowledge and am currently writing a book on how to start a digital business and create a very powerful team.”</p>
+                        <p className="hero-text">“To stand out from the crowd, I made a video going through your requirement list for the Remote Front End Dev Position.”</p>
                     </div>
                     <div className="column">
                         <img src={heroImage} alt=" the circle, squares, triangle and much more" id="hero-image" />
