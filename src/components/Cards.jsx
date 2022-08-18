@@ -7,6 +7,9 @@ function Cards() {
         <div>
             <section id="cards-section">
                 <Card />
+                <Card />
+                <Card />
+                <Card />
             </section>
         </div>
     )
