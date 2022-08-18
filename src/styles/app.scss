@@ -2,6 +2,7 @@
 $font-stack: 'Bungee', cursive;
 $primary-color : #185F5C;
 $secondary-color: rgb(228, 228, 228);
+$tertiary-color: #26B1A9;
 
 
 * {
@@ -109,5 +110,19 @@ p {
 #hero-image {
     width: 550px;
     padding-top: 2rem;
-    padding-left: 2rem;
+    padding-left: 4rem;
+}
+
+.scrollToRead,
+.scrollArrow {
+    padding-top: 3rem;
+    color: $tertiary-color;
+    font-size: 1.4rem;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+}
+
+#scrollArrow {
+    width: 30px;
 }
