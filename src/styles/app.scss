@@ -70,7 +70,7 @@ nav ul li {
     font-size: 1.3rem;
     margin-left: 2rem;
     margin-right: 2.5rem;
-    padding-top: 0rem;
+    padding-top: 0.7rem;
 
 }
 
@@ -85,7 +85,8 @@ nav ul li a:hover {
 }
 
 .social-icons {
-    margin: 0 0.5rem;
+    margin-top: 0;
+    margin-left: 1.8rem;
 }
 
 // section {
@@ -211,7 +212,7 @@ nav ul li a:hover {
 }
 
 #showMoreArticles {
-    padding-top: 3rem;
+    padding-top: 1rem;
     display: flex;
     justify-content: center;
     cursor: pointer;
@@ -224,10 +225,12 @@ button {
     padding: 2rem 30rem;
     margin-bottom: 5rem;
     border-radius: 10px;
+    transition: 0.3s;
 }
 
 button:hover {
     background-color: $primary-color;
+
 }
 
 .footer {
