@@ -3,7 +3,7 @@ import React from 'react';
 import './styles/app.scss';
 // import components
 import Navbar from './components/Navbar';
-import Header from './components/Header';
+import Hero from './components/Hero';
 import Cards from './components/Cards';
 import Footer from './components/Footer';
 
@@ -12,7 +12,7 @@ function App() {
   return (
     <div className="App">
       <Navbar />
-      <Header />
+      <Hero />
       <Cards />
       <Footer />
     </div>

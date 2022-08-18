@@ -1,19 +1,43 @@
+// Primary Colors and Fonts
+$font-stack: 'Bungee', cursive;
+$primary-color : #185F5C;
+$secondary-color: rgb(228, 228, 228);
+
+
 * {
     margin: 0;
     border: 0;
     box-sizing: border-box;
 }
 
-$font-stack: 'Bungee', cursive;
-$primary-color : #185F5C;
+body {
+    background-color: $primary-color;
+}
 
-
-.Nav-left {
+.header {
     display: flex;
-    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .logo {
     width: 100px;
     height: auto;
+}
+
+nav ul {
+    color: white;
+    display: flex;
+}
+
+nav ul li {
+    list-style: none;
+    font-size: 1.3rem;
+    text-decoration: none;
+    margin-left: 2rem;
+
+}
+
+nav ul li a {
+    color: $secondary-color;
 }
