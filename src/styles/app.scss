@@ -18,11 +18,15 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width: 80vw;
+    margin: auto;
+    padding: 2rem;
 }
 
 .logo {
-    width: 100px;
+    width: 75px;
     height: auto;
+    border-radius: 50px;
 }
 
 nav ul {
@@ -33,11 +37,22 @@ nav ul {
 nav ul li {
     list-style: none;
     font-size: 1.3rem;
-    text-decoration: none;
     margin-left: 2rem;
+    margin-right: 2rem;
+    padding-top: 0.8rem;
 
 }
 
 nav ul li a {
     color: $secondary-color;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    color: $secondary-color;
+    text-decoration: underline;
+}
+
+.social-icons {
+    margin: 0 1rem;
 }

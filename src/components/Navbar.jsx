@@ -1,5 +1,6 @@
 import React from 'react';
-import Logo from '../img/logo.jpg'
+import Logo from '../img/logo.jpg';
+import { SocialIcon } from 'react-social-icons';
 
 function Navbar() {
     return (
@@ -9,9 +10,9 @@ function Navbar() {
                 <ul>
                     <li><a href='#'>Home</a></li>
                     <li><a href='#'>About Me</a></li>
-                    <div className="social-button">LinkedIn</div>
-                    <div className="social-button">Instagram</div>
-                    <div className="social-button">Twitter</div>
+                    <SocialIcon url="https://linkedin.com/in/iancahn" bgColor="#dbdbdb84" fgColor="#fff" className="social-icons" />
+                    <SocialIcon url="https://www.instagram.com/apple/" bgColor="#dbdbdb84" fgColor="#fff" className="social-icons" />
+                    <SocialIcon url="https://twitter.com/joerogan/" bgColor="#dbdbdb84" fgColor="#fff" className="social-icons" />
                 </ul>
             </nav>
         </div>
