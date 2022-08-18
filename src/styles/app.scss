@@ -11,8 +11,9 @@ $secondary-color: rgb(228, 228, 228);
 }
 
 body {
-    background-color: $primary-color;
+    // background-color: $primary-color;
     font-family: $font-stack;
+    background: linear-gradient(#185F5C, #1F393A);
 }
 
 .header {
@@ -90,6 +91,7 @@ h1 {
 .hr1 {
     margin-top: 3rem;
     margin-bottom: 2rem;
+    margin-right: 5rem;
     border-top: 10px solid $secondary-color;
 }
 
@@ -102,4 +104,10 @@ h1 {
 p {
     font-family: 'Roboto', sans-serif;
     line-height: 1.4;
+}
+
+#hero-image {
+    width: 550px;
+    padding-top: 2rem;
+    padding-left: 2rem;
 }

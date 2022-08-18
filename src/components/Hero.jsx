@@ -1,5 +1,5 @@
 import React from 'react';
-
+import heroImage from '../img/hero-image.png'
 
 function Header() {
     return (
@@ -12,7 +12,7 @@ function Header() {
                         <p className="hero-text">“I love to share knowledge and am currently writing a book on how to start a digital business and create a very powerful team.”</p>
                     </div>
                     <div className="column">
-                        <p>2</p>
+                        <img src={heroImage} alt=" the circle, squares, triangle and much more" id="hero-image" />
                     </div>
                 </div>
             </section >
