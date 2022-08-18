@@ -12,6 +12,7 @@ $secondary-color: rgb(228, 228, 228);
 
 body {
     background-color: $primary-color;
+    font-family: $font-stack;
 }
 
 .header {
@@ -38,8 +39,8 @@ nav ul li {
     list-style: none;
     font-size: 1.3rem;
     margin-left: 2rem;
-    margin-right: 2rem;
-    padding-top: 0.8rem;
+    margin-right: 2.5rem;
+    padding-top: 0rem;
 
 }
 
@@ -54,5 +55,51 @@ nav ul li a:hover {
 }
 
 .social-icons {
-    margin: 0 1rem;
+    margin: 0 0.5rem;
+}
+
+section {
+    max-width: 75vw;
+    margin: auto;
+}
+
+#hero-section {
+    padding: 10rem 0rem;
+}
+
+.column {
+    float: left;
+    width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+// font styling
+
+h1 {
+    font-size: 6rem;
+    color: white;
+    line-height: 1.2;
+}
+
+.hr1 {
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    border-top: 10px solid $secondary-color;
+}
+
+.hero-text {
+    font-size: 2rem;
+    color: $secondary-color;
+    font-weight: lighter;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.4;
 }

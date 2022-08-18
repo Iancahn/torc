@@ -5,8 +5,8 @@ function Footer() {
         <div>
             <section>
                 <div className="row">
-                    <div className="column">1</div>
-                    <div className="column">2</div>
+                    <div className="column">Footer Info</div>
+                    <div className="column">Footer Info 2</div>
                 </div>
             </section>
             <section>
