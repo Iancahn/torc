@@ -208,5 +208,49 @@ nav ul li a:hover {
     font-family: $font-poppins;
     font-weight: 500;
     background-color: none;
+}
 
+#showMoreArticles {
+    padding-top: 3rem;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+
+button {
+    background-color: $theme-orange;
+    color: $secondary-color;
+    font-size: 1.5rem;
+    padding: 2rem 30rem;
+    margin-bottom: 5rem;
+    border-radius: 10px;
+}
+
+button:hover {
+    background-color: $primary-color;
+}
+
+.footer {
+    background-color: $primary-color;
+    padding: 4rem;
+    color: $secondary-color;
+}
+
+#footer-row {
+    width: 65vw;
+    margin: auto;
+}
+
+#float-right {
+    text-align: end;
+}
+
+.bottomBar {
+    background-color: $theme-black;
+    color: $secondary-color;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 }

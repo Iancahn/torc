@@ -10,6 +10,9 @@ function Cards() {
                 <Card />
                 <Card />
                 <Card />
+                <div id="showMoreArticles">
+                    <button>Show More Articles</button>
+                </div>
             </section>
         </div>
     )
