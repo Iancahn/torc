@@ -2,7 +2,6 @@ import React from 'react';
 import cardImage from '../img/card-image.jpg';
 
 function Card() {
-
     return (
         <div className="row" id="card-row">
             <div className="card">
