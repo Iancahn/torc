@@ -16,12 +16,12 @@ function Header() {
                         <img src={heroImage} alt=" the circle, squares, triangle and much more" id="hero-image" />
                     </div>
                 </div>
-                <div className="scrollToRead">
+                {/* <div className="scrollToRead">
                     <p>Scroll to read my articles</p>
                 </div>
                 <div className="scrollArrow">
                     <img src={heroArrow} alt="an arrow pointing towards articles" id="scrollArrow" />
-                </div>
+                </div> */}
             </section >
         </div >
     )
